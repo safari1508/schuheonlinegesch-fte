@@ -1,0 +1,12 @@
+/* ich habe hier font-family hinzugefügt */
+@font-face{
+    font-family: "layzar";
+    src: url("../assets/fonts/Lalezar.ttf");
+}
+@font-face{
+    font-family: "Yekan";
+    src: url("../assets/fonts/Yekan.ttf");
+}
+
+
+
