@@ -11,4 +11,32 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
+body{
+    font-family: "Yekan";
+    background-color: #141313;
+    color: rgb(235, 234, 234);
+}
+nav{
+    background-color: orange;
+    padding: 20px 0px;
+}
+nav h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: "layzar";
+    color: black;
+    padding: 10px 0px;
+
+}
+.hero-section{
+    background-color: #141313;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 10px;
+}
+.hero-section img{
+    max-width: 100%;
+}
+.
