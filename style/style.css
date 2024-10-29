@@ -88,3 +88,12 @@ nav h1{
 .container .row .col-:hover{
     transform: translateY(-10px);
 }
+
+.footer{
+    background-color: orange;
+    text-align: center;
+    margin-top: 40px;
+    padding:25px 0px;
+    font-size: 20px;
+    font-family: "Yekan";
+}
