@@ -39,4 +39,52 @@ nav h1{
 .hero-section img{
     max-width: 100%;
 }
-.
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.container h2{
+    color:rgb(235, 234, 234) ;
+    font-size: 40px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.container .row{
+    display: flex;
+    justify-content: space-around;
+    gap: 14px;
+}
+.container .row .col-{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+    cursor: pointer;
+}
+.container .row .col- img{
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.container .row .col- .info{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-family: "Yekan";
+}
+.container .row .col- .info .model span:first-child{
+    color: orange;
+    font-family: "layzar";
+}
+.container .row .col- .info .much span:first-child{
+    color: orange;
+    font-family: "layzar";
+}
+.container .row .col- .info .prise span:first-child{
+    color: orange;
+    font-family: "layzar";
+}
+.container .row .col-:hover{
+    transform: translateY(-10px);
+}
